@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/all.css">	
+	<script type="text/javascript" src="js/all.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Reservia</title>
 </head>
@@ -13,9 +15,9 @@
 				<img src="img/logo/Reservia.svg" alt="logo du site">
 				<nav class="nav nav1">
 					<ul>
-						<li><a href="#">Hébergement</a></li>
-						<li><a href="#">Activités</a></li>
-						<li><a href="#">S'inscrire</a></li>
+						<li class="link"><a href="#">Hébergement</a></li>
+						<li class="link active"><a href="#">Activités</a></li>
+						<li class="link"><a href="#">S'inscrire</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -23,21 +25,22 @@
 			<p>En plein centre ville ou en pleine nature</p>
 			<form>
 				<p>
-					<input type="search" id="search" placeholder="Marseille, France "><label for="search">Rechecher</label>
+
+					<span class="position"><i class="fas fa-map-marker-alt"></i></span><input type="search" id="search" placeholder="Marseille, France "><label for="search"> Rechecher</label>
 				</p>
 			</form>
 			<div class="filtre">
 				<p>Filtres</p>
 				<nav class="nav nav2">
 					<ul>
-						<li><a href="#">Economique</a></li>
-						<li><a href="#">Familial</a></li>
-						<li><a href="#">Romantique</a></li>
-						<li><a href="#">Animaux autorisés</a></li>
+						<li><a href="#"><span><i class="fas fa-money-bill-wave"></i></span> Économique</a></li>
+						<li><a href="#"><span><i class="fas fa-male"></i></span> Familial</a></li>
+						<li><a href="#"><span><i class="fas fa-heart"></i></span> Romantique</a></li>
+						<li><a href="#"><span><i class="fas fa-dog"></i></span> Animaux autorisés</a></li>
 					</ul>
 				</nav>
 			</div>
-			<p>Plus de 500 logements sont disponibles dans cette ville</p>
+			<div class="info"><span><i class="fas fa-info"></i></i></span> Plus de 500 logements sont disponibles dans cette ville</div>
 		</header>
 		<section>
 			<article></article>
