@@ -9,9 +9,20 @@ a{text-decoration: none;}
 @font-face{	font-family: "Raleway-Regular";src:url(police/Raleway-Regular.ttf) format('truetype');font-weight: normal;
 font-style: normal;}
 @font-face{	font-family: "Raleway-ExtraBold";src:url(police/Raleway-ExtraBold.ttf) format('truetype');}
-
 body{font-family:"Raleway-Regular",Arial,serif;}
-h1{font-family:"Raleway-ExtraBold",Arial,serif;}
+
+/*header*/
+/*police*/
+h1,input::placeholder{font-family:"Raleway-ExtraBold",Arial,serif;}
+
+/*Flexbox*/
+.logo{display: flex;flex-wrap: wrap;justify-content: space-between;align-items:  center;}
+.nav ul{display: flex;flex-wrap: wrap;}
+.nav li{margin-left: 80px;}
+
+.filtre{margin-top:10px;display:flex;}
+
+
 
 
 
