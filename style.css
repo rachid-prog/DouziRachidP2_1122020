@@ -3,7 +3,13 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 
 *{box-sizing: border-box;}
 a{text-decoration: none;color:blue;}
-.main{width: 980px;margin:5px auto;}
+.main{width: 990px;margin:5px auto;}
+img{width: 200px;height: 200px}
+.logo img{height: 80px;width: 80px}
+/*bolor fond pour test a effacer*/
+.hebegements{background:#F2F2F2;border-radius: 30px;}
+.populaires{background: #F2F2F2;border-radius:30px 0 0 30px; }
+.activites{background: aqua}
 
 
 /*La police de la page*/
@@ -14,7 +20,7 @@ body{font-family:"Raleway-Regular",Arial,serif;}
 
 /*debut header*/
 		/*police*/
-h1,input::placeholder{font-family:"Raleway-ExtraBold",Arial,serif;}
+h1,input::placeholder,h2,.hotel:nth-child(2){font-family:"Raleway-ExtraBold",Arial,serif;}
 		/*Flexbox logo et nav*/
 .logo{display: flex;flex-wrap: wrap;justify-content: space-between;align-items:  center;}
 .nav ul{display: flex;flex-wrap: wrap;}
@@ -38,9 +44,33 @@ label{background: blue;color: #fff;padding: 5px 25px 7px 0;border-radius: 0 25px
 .info span{border:1px solid silver;border-radius: 50%;color:blue;padding:2px;}
 .info{margin-top:20px;}	
 
-/*section*/
-			/*hebergement*/
-.hebegements img{width: 200px;height: 200px}
+/*section*/			
+section{display: flex;flex-wrap: wrap;margin:10px;}
+	/*hebergements*/
+.hebegements h2,.populaires h2{padding:20px;}
+.img-hebergement div{background:#fff;margin-bottom: 30px;}
+.img-hebergement img{padding:6px;border-radius: 25px 25px 0 0}	
+.img-hebergement div{border-radius: 25px}
+.hebergement p:last-child{background: red}
+.hebegements{flex:2 ;margin-right:  10px}
+.hebegements{flex:1.2;}
+.img-hebergement{display: flex;flex-wrap: wrap;justify-content:space-around; }
+	/*popuaires*/
+.plus img{width: 150px;height: 150px;border-radius: 25px 0 0 25px;padding:6px;}
+.plus{display: flex;flex-wrap: wrap;background: #fff;border-radius: 25px;margin:10px 10px 50px 10px;}
+.img-populaires{display: flex;}	
+.plus div{padding:10px 4px 0 5px;}
+h2 span{padding-left: 100px}
+
+	/*etoile*/
+.star{color: blue;}
+.star span{color:silver;}
+.plus .star{padding-top:60px;}
+
+/*Activités*/
+
+		
+
 
 
 
