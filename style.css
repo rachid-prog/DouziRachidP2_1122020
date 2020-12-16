@@ -3,13 +3,13 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 
 *{box-sizing: border-box;}
 a{text-decoration: none;color:blue;}
-.main{width: 990px;margin:5px auto;}
-img{width: 200px;height: 200px}
+.main{width: 80%;margin:5px auto;}
+img{width: 300px;height: 200px}
 .logo img{height: 80px;width: 80px}
-/*bolor fond pour test a effacer*/
-.hebegements{background:#F2F2F2;border-radius: 30px;}
+/*color fond pour test a effacer*/
+.hebegements{background:#F2F2F2;border-radius:0 25px 25px 0 ;}
 .populaires{background: #F2F2F2;border-radius:30px 0 0 30px; }
-.activites{background: aqua}
+
 
 
 /*La police de la page*/
@@ -47,13 +47,17 @@ label{background: blue;color: #fff;padding: 5px 25px 7px 0;border-radius: 0 25px
 /*section*/			
 section{display: flex;flex-wrap: wrap;margin:10px;}
 	/*hebergements*/
+
 .hebegements h2,.populaires h2{padding:20px;}
-.img-hebergement div{background:#fff;margin-bottom: 30px;}
+.img-hebergement div{background:#fff;margin: 10px;}
 .img-hebergement img{padding:6px;border-radius: 25px 25px 0 0}	
 .img-hebergement div{border-radius: 25px}
-.hebergement p:last-child{background: red}
-.hebegements{flex:2 ;margin-right:  10px}
-.hebegements{flex:1.2;}
+
+.hebegements{flex:1 60% ;margin-right:  10px}
+.populaires{flex:1 30%;}
+.activites{flex:1 100%;}
+.afficher{padding:0 0 10px 20px;}
+
 .img-hebergement{display: flex;flex-wrap: wrap;justify-content:space-around; }
 	/*popuaires*/
 .plus img{width: 150px;height: 150px;border-radius: 25px 0 0 25px;padding:6px;}
@@ -68,6 +72,18 @@ h2 span{padding-left: 100px}
 .plus .star{padding-top:60px;}
 
 /*Activités*/
+.marseille p{font-family:Raleway-ExtraBold;padding:4px 0 10px 10px;}
+.marseille{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.vieux{border:1px solid silver;border-radius:25px;background: #fff;box-shadow: 2px 2px 15px #000}
+.vieux img{border-radius: 25px 25px 0 0;height: 450px}
+.fort img{border-radius:25px 25px 0 0;}
+.fort div{margin-bottom: 15px;border:1px solid silver;border-radius:25px;background: #fff;box-shadow: 2px 2px 15px #000}
+.notre div{margin-bottom: 15px;border:1px solid silver;border-radius: 25px 0 0 25px;box-shadow: 2px 2px 15px #000}
+.notre img{border-radius: 25px 0 0 0}
+
+
+
+
 
 		
 
