@@ -27,6 +27,9 @@ h1,input::placeholder,h2,.hotel:nth-child(2){font-family:"Raleway-ExtraBold",Ari
 .nav li{margin-left: 80px;}
 
 .filtre{display:flex;flex-wrap: wrap;align-items: center}
+
+.nav2 li{transition: all 1s}
+.nav2 li:hover{transform: scale(1.2);}
 		/*formulaire*/
 form p{margin:15px;}
 input{padding:6px;}
