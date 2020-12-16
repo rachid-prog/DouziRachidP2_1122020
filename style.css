@@ -5,6 +5,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 a{text-decoration: none;color:blue;}
 .main{width: 980px;margin:5px auto;}
 
+
 /*La police de la page*/
 @font-face{	font-family: "Raleway-Regular";src:url(police/Raleway-Regular.ttf) format('truetype');font-weight: normal;
 font-style: normal;}
@@ -37,7 +38,10 @@ label{background: blue;color: #fff;padding: 5px 25px 7px 0;border-radius: 0 25px
 .info span{border:1px solid silver;border-radius: 50%;color:blue;padding:2px;}
 .info{margin-top:20px;}	
 
-/*fin header*/
+/*section*/
+			/*hebergement*/
+.hebegements img{width: 200px;height: 200px}
+
 
 
 
