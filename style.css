@@ -92,6 +92,35 @@ h2 span{padding-left: 300px}
 
 
 
+@media	all and ( max-width: 1215px){
+	.main{width: 100%}
+	.nav2 ul{flex-direction: column;}
+	.nav2 li{margin-top:5px;}
+}
+
+@media	all and ( max-width: 1215px){
+	.nav1 ul{flex-direction: column;}
+}
+
+@media	all and ( max-width: 1215px){
+	article{margin-bottom: 20px;}
+}
+
+@media	all and ( max-width: 814px){
+	h2{text-align: center}
+}
+
+@media	all and ( max-width: 616px){
+	.marseille div{margin:10px auto;}
+
+@media	all and ( max-width: 616px){
+	.pied{flex-direction: column;}
+	}
+	
+@media	all and ( max-width: 468px){
+	h2{text-align: center}
+}
+
 
 		
 
