@@ -40,7 +40,7 @@ box-sizing : border-box;
 }
 a {
 text-decoration : none;
-color : blue;
+color :  #0065FC;
 }
 .main {
 width : 80%;
@@ -117,7 +117,7 @@ input {
 padding : 6px;
 }
 label {
-background : blue;
+background :  #0065FC;
 color : #fff;
 padding : 5px 25px 7px 0;
 border-radius : 0 25px 25px 0;
@@ -143,7 +143,7 @@ background : silver;
 padding : 5px 5px 7px 5px;
 }
 .nav2 span {
-color : blue;
+color :  #0065FC;
 border : silver solid 1px;
 border-radius : 50%;
 background : #DEEBFF;
@@ -152,7 +152,7 @@ padding : 6px;
 .info span {
 border : silver solid 1px;
 border-radius : 50%;
-color : blue;
+color :  #0065FC;
 padding : 4px;
 
 }
@@ -219,7 +219,7 @@ h2 span {
 padding-left : 300px;
 }
 .star {
-color : blue;
+color : #0065FC;
 }
 .star span {
 color : silver;
@@ -276,7 +276,7 @@ justify-content : space-between;
 margin-top : 20px;
 }
 .pied li {
-margin-top : 8px;
+margin-top : 8px;color:#000;
 }
 @media all and (max-width: 1881px) {
 .hebergements, .populaires {
@@ -315,7 +315,7 @@ margin-top : 5px;
 
 
 label{display: none;}
-.invisible{display: inline-block;width: 45px;height: 31px;background:blue;padding:10px;
+.invisible{display: inline-block;width: 50px;height: 31px;background:#044EF8;padding:10px;
 	border-radius: 25%;transform: translate(-20px,8px);color: #fff;font-size: 1.2em
 	
 	
@@ -329,11 +329,12 @@ label{display: none;}
 text-align : left;
 }
 .vieux img{height: 200px;}
-.pied a{color: #000}
+
 .populaires,.hebegements{margin:20px auto;}
 .populaires h2,.hebegements h2{text-align: left;}
 .populaires h2 span{display: inline-block;transform: translate(30px,-18px);}
 .pied{margin:auto;flex:1 100%;}
+.pied a{color:rgba(0,0,0);}
 
 
 .hebegements{order:2;}
@@ -341,23 +342,41 @@ text-align : left;
 
 }
 @media all and ( max-width: 458px ){
-	h1{margin-top: 25px;}
+
 	.logo{position:relative;}
-	.nav1 li:nth-child(1){;position: relative;width: 246px;margin:0;left:  -226px;top:7px;border-bottom: 4px solid blue;text-align: center;padding-bottom: 10px;}
-	.nav1 li:nth-child(2){position: relative;margin:0;top:40px;text-align: center;width:242px;border-bottom: 4px solid silver;padding-bottom: 10px;right: -20px}
-	.nav1 li:nth-child(3){background: ;position: relative;margin:0;top:30px;left:120px;}
+	.nav1 li:nth-child(1){position: relative;width: 222px;margin:0;left: -200px;top:10px;border-bottom: 6px solid#1E90FF;
+		text-align: center;padding-bottom: 10px}
+	.nav1 li:nth-child(2){position: relative;margin:0;top:52px;text-align: center;width:238px;border-bottom: 6px solid silver;padding-bottom: 10px;right: -20px;}
+	.nav1 li:nth-child(3){background: ;position: relative;margin:0;top:30px;left:120px;font-family: "Raleway-ExtraBold"}
 	.populaires{border-radius: 0}
 	.main{width:100%;}
 	.filtre{flex-direction: column;align-items: flex-start;}
 	.filtre ul{width: 414px}
 	.filtre li{margin-left: 0}
-	.filtre li:nth-child(1){width: 150px;order:1;}
-	.filtre li:nth-child(2){width: 110px;order:4;align-self: flex-end;transform: translateY(-128px);}
-	.filtre li:nth-child(3){width: 150px;;order:2;}
-	.filtre li:nth-child(4){width: 200px;order:3;}
-	.tete h1{font-size:1.7em }
-	
+	.filtre li:nth-child(1){width: 190px;order:1;border-radius: 50px;}
+	.filtre li:nth-child(2){width: 120px;order:4;align-self: flex-end;transform: translate(-30px,-170px);}
+	.filtre li:nth-child(3){width: 180px;;order:2;}
+	.filtre li:nth-child(4){width: 220px;order:3;}
+	.tete h1{font-size:1.7em;padding:20px 0px 10px 20px;margin-top: 25px; }
+	h1+p{padding:10px 20px 20px 20px;}
+	input{display: inline-block;height: 50px;width: 251px}
+	.position{display: inline-block;height: 50px;width: 50px;padding:11px;border-radius: 10px 0 0 10px;background: rgb(220,220,220);font-size: 20px}
+	.invisible{padding:10px 45px 41px 15px;font-size: 30px;background:  #0065FC;}
+	.logo img{width: 120px;margin:0 0 35px 15px;}
+	.nav1 li{font-weight: 900;font-size: 1.4em;color:#2598EE}
+	input::placeholder{font-size: 1.6em;font-weight: 900}
+	a{color:inherit;}
+	.info{display: flex;}
+	.info span{padding:10px;justify-content: space-around;margin-right:  15px}
+	.nav2 span{transform: scale(1.4);display: inline-block;margin-right: 20px}
+	.filtre{margin-left: 10px}
 
+	.filtre p{font-size: 1.6em}
+	
+	.pied div{margin: 20px 0 15px 15px}
+
+	
+	
 
 
 }
